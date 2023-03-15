@@ -1,0 +1,4 @@
+포트번호 바꾸는법 
+mysqld -C utf8 -p 53306
+
+mysql -p 53306 --default-character-set=utf8 -u root -p
